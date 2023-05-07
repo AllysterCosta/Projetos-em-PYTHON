@@ -20,7 +20,6 @@ class ContaCliente(ABC):
         self.IR = IR 
         self.valorinvestido = valorinvestido
         self.taxarendimento = taxarendimento
-    @abstractmethod
     def CalcularRendimento(self):
         pass
     def Extrato(self):
